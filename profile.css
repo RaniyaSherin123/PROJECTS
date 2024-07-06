@@ -1,0 +1,229 @@
+.container{
+    background-color:black ;
+
+}
+
+*{
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Darker Grotesque ';
+}
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+.navmenu{
+color:rgb(250, 248, 247);
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: fixed;
+
+ 
+    background-color:rgba(22, 18, 36, 0.558);
+    backdrop-filter: blur(3px);
+
+text-align: center;
+text-decoration: none;
+padding-top:50px;
+/* position:sticky; */
+}
+.nav-item{
+    width:40%;
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+}
+.nav-item a{
+    text-decoration: none;
+    color:rgb(255, 245, 245);
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(40,36,54);
+
+}
+.home1{
+    text-align: center;
+    width:50%;
+    color:rgb(243, 243, 243);
+    font-weight: bolder;
+   margin-top: 100px;
+    background-color:rgb(40,36,54);;
+}
+.home2{
+    background-color:rgb(40,36,54); ;
+}
+.aboutme{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+    
+
+.about{
+    background-color:rgb(40,36,54);;
+    color:rgb(255, 253, 250);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+    
+}
+.photo{
+    background-color: rgb(161, 165, 169);
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    /* padding:50px 0px; */
+    
+    background-color: rgb(40, 36, 54);
+}
+.html{
+   
+    margin: 40px;
+    padding:10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius:40px;
+    background-color:rgb(194, 196, 195);
+    color:rgb(45, 43, 43);
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    height: 250px;
+}
+.html p{
+    text-align: justify;
+}
+.css{
+  
+    margin: 40px;
+     padding:10px;
+     box-sizing: border-box;
+    border: 1px solid black;
+    border-radius:40px;
+    background-color:rgb(194, 196, 195);
+    color:rgb(45, 43, 43);
+font-family: 'Times New Roman', Times, serif;
+}
+.java{
+  
+    margin:40px;
+    padding:10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius:40px;
+    background-color:rgb(194, 196, 195);
+    color:rgb(45, 43, 43);
+font-family: 'Times New Roman', Times, serif;
+}
+.about-down{
+
+width:45%;
+height:75px;
+display:flex;
+justify-content:space-evenly;
+align-items: center;
+}
+.about-down .inst{
+height: 60px;
+width:60px;
+border: 3px solid black;
+
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: transform 1s;
+margin-left:340%;
+font-size:30px;
+margin-top: 1rem;
+}
+.project{
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(40,36,54);
+    padding:50px;
+}
+.but1{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-weight: bolder;
+    
+        background-size: contain; /* Adjust as needed */
+        background-repeat: no-repeat;
+        padding: 15px 25px; /* Adjust padding to fit your text */
+        border: none;
+        color: white; /* Text color */
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        /* Optionally, you can add more styles */
+    }
+       
+    
+
+.but2{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    font-weight: bolder;
+
+    background-size: contain; /* Adjust as needed */
+        background-repeat: no-repeat;
+        padding: 15px 25px; /* Adjust padding to fit your text */
+        border: none;
+        color: white; /* Text color */
+        text-align: center;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        /* Optionally, you can add more styles */
+  
+}
+.form{
+    background-color:rgb(40,36,54) ;
+    align-items: center;
+    text-align: center;
+    /* text-align: center; */
+    
+    padding: 10px;
+}
+label {
+    color: rgb(251, 251, 251);
+    padding: 10px 10px 10px 0;
+    display: inline-block;
+  }
+
+  input{
+
+    width: 20%;
+    padding: 12px;
+    border: 10px solid #ccc;
+    border-radius: 6px;
+    resize: vertical;
+  }
+
+
+  .home2 img{
+    object-fit: cover;
+  }
+  *{
+    font-family: 'Darker Grotesque';
+  }
+  .navmenu a{
+    font-size: 1.3rem;
+  }
+  h2{
+    font-size: 3rem;
+  }
